@@ -10,7 +10,7 @@ ask questions about them using Retrieval-Augmented Generation.
 
 ## How to Run
 1. Clone the repository
-   git clone https://github.com/yourusername/rag-chatbot.git
+   git clone https://github.com/uzairkhan101/RAG_CHATBOT.git
 
 2. Install dependencies
    pip install -r requirements.txt
