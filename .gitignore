@@ -1,0 +1,92 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# Build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+*.manifest
+*.spec
+
+# Logs & runtime
+logs/
+*.log
+*.out
+*.err
+*.pid
+
+# Coverage / testing
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.cache/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- Environment / Secrets ---
+.env
+.env.*
+*.env
+*.ini
+
+# --- LlamaIndex / Chroma persistence ---
+chroma_persist/
+chroma_db/
+storage/
+index_store/
+vector_store/
+*.sqlite3
+
+
+# --- App-specific temp & uploads ---
+data/
+datasets/
+uploads/
+tmp/
+temp/
+
+# Keep repo clean from large local docs; store sample docs under sample_docs/
+sample_docs/
+
+# --- Misc ---
+*.bak
+*.tmp

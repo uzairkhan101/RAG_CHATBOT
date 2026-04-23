@@ -1,0 +1,25 @@
+# Core backend & server
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# Frontend
+streamlit
+requests
+
+# RAG stack
+llama-index
+llama-index-llms-huggingface
+llama-index-embeddings-huggingface
+
+# Vector store
+chromadb
+
+# Models & embeddings
+transformers
+sentence-transformers
+torch
+
+# PDF loading
+pypdf
