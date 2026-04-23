@@ -1,44 +1,32 @@
-🚘 RAG Chat Assistant
-AI-powered tool for question answering over your own documents using Retrieval-Augmented Generation (RAG).
-This application uses a FastAPI backend with LlamaIndex (TinyLlama + HuggingFace embeddings) and a Streamlit UI to upload documents, index them in Chroma, and chat with the content in real time.
+# RAG Chatbot
 
-🚀 Features
-🔧 Upload and index documents
-📁 Supports document upload and chat via API
-✅ Real-time LLM inference (TinyLlama via LlamaIndex)
-🧠 Preconfigured TinyLlama + HuggingFace embeddings + Chroma
-💻 Easy-to-use Streamlit UI with a simple FastAPI backend
+AI-powered chatbot that lets you upload documents and 
+ask questions about them using Retrieval-Augmented Generation.
 
-🛠️ Project Structure
+## Technologies Used
+- Python, FastAPI, LlamaIndex, ChromaDB
+- HuggingFace Embeddings, TinyLlama
+- Streamlit, REST APIs
 
-rag-chat-assistant/
-├── app.py        # Main Streamlit application
-├── .gitignore    # Files to be excluded  
-├── main.py       # FastAPI backend (upload, index, query)
-├── rag_fun.py    # Local demo script (index + query)
-├── requirements.txt     # Files required
-└── README.md     # Project documentation
-
-📦 Installation
+## How to Run
 1. Clone the repository
+   git clone https://github.com/yourusername/rag-chatbot.git
 
-git clone <your-repo-url>.git
-cd rag-chat-assistant
+2. Install dependencies
+   pip install -r requirements.txt
 
-2. Create and activate a virtual environment (optional but recommended)
+3. Start the backend
+   uvicorn main:app --reload
 
-python -m venv virtual
+4. Start the frontend
+   streamlit run app.py
 
-virtual\Scripts\activate   # For Windows
-
-3. Install dependencies
-
-pip install -r requirements.txt
-
-4. ▶️ Running the App
-
-streamlit run app.py
-This will launch the Streamlit app in your browser.
+## Features
+- Upload PDF or TXT documents
+- Ask questions in natural language
+- RAG pipeline with vector search
+- Named Entity Recognition (NER)
+- Sentiment Analysis
 
 💡 How to Use
 Select the action from the sidebar:
